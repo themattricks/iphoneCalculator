@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+    margin-left: 23rem;
+    background-color: black;
+    width: 35%;
+    padding: 10px;
+}
+.container .result {
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+    /* margin-left: 85%; */
+    direction: rtl;
+}
+
+.container .row {
+    margin-top: 15%;
+    margin-left: 8%;
+    font-size: 1.3rem;
+}
+.container .row .primaryButton {
+    background-color: rgb(165, 165, 165);
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    line-height: 20px; /* Height Of The Object */
+}
+.container .row .primaryButton:hover {
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+.container .row .secondaryOperationButton {
+    background-color: rgb(165, 165, 165);
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+.container .row .secondaryOperationButton:hover {
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.container .row .yellowButton {
+    background-color: rgb(252, 161, 12);
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+.container .row .yellowButton:hover {
+    background-color: rgb(207, 146, 48);
+    cursor: pointer;
+}
